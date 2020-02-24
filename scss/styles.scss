@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Roboto+Slab:300&display=swap');
 @import 'reset';
 @import 'typography';
+@import 'header';
+@import 'sign-in';
+@import 'userPage'; 
 
 body {
-    background: #fafafa;
+    background-image: url(https://wallpapercave.com/wp/Z0ifRi4.jpg) ;    
     display: flex;
     flex-direction: column;
     min-height: 100vh;

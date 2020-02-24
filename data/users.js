@@ -146,19 +146,19 @@ const users = [
     {
         id: '1030',
         name: 'Eric',
-        friends: ['1031', '1032'],
+        friends: ['1031', '1032', '1029'],
         avatarUrl: 'https://ca.slack-edge.com/T045DMA9Q-USLQ533J9-66f0d3d45c67-512' 
     },
     {
         id: '1031',
         name: 'Dani',
-        friends: ['1030', '1032'],
+        friends: ['1030', '1032', '1028'],
         avatarUrl: 'https://ca.slack-edge.com/T045DMA9Q-USM72NSDA-f5b37df5cd63-512' 
     },
     {
         id: '1032',
         name: 'Dominique',
-        friends: ['1031', '1030'],
+        friends: ['1031', '1030', '1027'],
         avatarUrl: 'https://ca.slack-edge.com/T045DMA9Q-USHEPGK6V-0027789a0a23-512' 
     },
 ]

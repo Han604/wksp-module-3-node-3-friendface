@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <header>
-        <h1 class='site-title'>FriendFace</h1>
+    <header class="header">
+        <h1 class='site-title'>friendSPACE</h1>
+        <h3 class="header-message"><%= (user !== null) ? `${greetings} ${currentUser.name}!` : `sign in!`;  %> </h3>
     </header>

@@ -1,0 +1,68 @@
+.signin-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.signInBackground {
+    position: absolute;
+    top: 20%;
+    left: 37%;
+    border: 2px solid white;
+    background-color:midnightblue;
+    border-radius: 1em;
+    width: 300px;
+    height: 400px;
+    box-shadow: 2, 2, 8, 2, grey;
+}
+
+.signInName {
+    margin-top: 20;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 18%;
+    font-size: xx-large;
+}
+.signInInput {
+    margin-top: 20;
+    border-radius: 3px;
+    border: 2px solid white;
+    background-color: midnightblue;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 20%;
+    width: 80%;
+}
+.signInButton {
+    margin-top: 20px;
+    width: 270px;
+    height: 50px;
+    border-radius: .5em;
+    color: white;
+    border: 2px solid white;
+    font-family: 'Roboto', sans-serif;
+    background-color: midnightblue;
+    font-size: x-large;
+    position: relative;
+    top: 10px;
+}
+
+.signInButton:hover {
+    background-color: white;
+    color: midnightblue;
+}
+
+.inputWrapper {
+    width: 270px;
+    border: 2px solid white;
+    border-radius: .75em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    position: relative;
+    top: 15px;
+}

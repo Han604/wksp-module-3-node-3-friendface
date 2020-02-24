@@ -1,0 +1,25 @@
+<%- include('../partials/header', {}) %>
+<div class="homeWrapper">
+    <p class="welcomeMessage">WELCOME to <%- user.name %>'s UNIVERSE </p>
+        <img a class = 'avatar' src="<%- user.avatarUrl %> " alt=" <%- user.name %> ">
+        <div id="orbitContainer">
+            <div id='outerOrbit'>
+                <a href="/user/<%- friend3.id %>">
+                    <img id="outerAvatar" src="<%- friend3.avatarUrl %> " alt="<%- friend3.name %>">
+                </a>
+            </div>
+                    <div id='middleOrbit'>
+                        <a href="/user/<%- friend2.id %>">
+                            <img id="middleAvatar" src="<%- friend2.avatarUrl %> " alt="<%- friend2.name %>">
+                        </a>
+                    </div>
+            <div id='innerOrbit'>
+                <a href=/user/<%- friend1.id %> >
+                    <img id="innerAvatar" src="<%- friend1.avatarUrl %> " alt="<%- friend1.name %>">
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+<%- include('../partials/footer', {}) %>

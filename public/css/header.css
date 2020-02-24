@@ -1,0 +1,13 @@
+.site-title {
+  padding: 10px; }
+
+.header {
+  display: flex;
+  background-color: midnightblue;
+  color: white; }
+
+.header-message {
+  text-align: right;
+  right: 1%;
+  position: absolute;
+  margin-top: 15px; }

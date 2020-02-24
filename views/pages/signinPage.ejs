@@ -1,0 +1,11 @@
+<%- include('../partials/header', {}) %>
+<div class="signInBackground">
+    <form method='get' action='/getname' class='signin-form'>
+        <div class="inputWrapper">
+            <label for='firstName' class="signInName">FIRST NAME</label>
+            <input type='text' name='firstName' class="signInInput" />
+        </div>
+        <button type='submit' class="signInButton">SUBMIT</button>
+    </form>
+</div>
+<%- include('../partials/footer', {}) %> 
